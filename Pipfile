@@ -10,10 +10,6 @@ watchdog = "*"
 flask = "*"
 python-dotenv = "*"
 bootstrap-flask = "*"
-flask-sqlalchemy = "*"
-mysqldb = "*"
-mysqlclient = "*"
-pymysql = "*"
 
 [requires]
 python_version = "3.7"
