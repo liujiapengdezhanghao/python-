@@ -1,3 +1,6 @@
+"""
+只需复制即可使用
+"""
 from tkinter import *
 import tkinter.messagebox
 
