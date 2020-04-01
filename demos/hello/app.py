@@ -1,3 +1,6 @@
+"""
+
+"""
 from flask import Flask,render_template
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
@@ -20,4 +23,3 @@ def hello(name="flask"):
 def paihao():
    u = random.randint(1000000000,9999999999)
    return "<h2>你的唯一饲养牌号是:%d</h2>" % u
-              
