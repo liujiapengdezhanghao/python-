@@ -8,12 +8,7 @@ app = Flask(__name__)
 
 
 bs = Bootstrap(app)
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:liujiapeng070616@localhost:3306/myku"
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["BOOTSTRAP_SERVE_LOCAL"] = True
-
-
-db = SQLAlchemy(app)
 
 
 @app.route("/hello/<name>")
