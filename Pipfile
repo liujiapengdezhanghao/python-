@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+verify_ssl = true
+
+[dev-packages]
+watchdog = "*"
+
+[packages]
+flask = "*"
+python-dotenv = "*"
+bootstrap-flask = "*"
+flask-sqlalchemy = "*"
+mysqldb = "*"
+mysqlclient = "*"
+pymysql = "*"
+
+[requires]
+python_version = "3.7"

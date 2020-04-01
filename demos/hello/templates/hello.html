@@ -1,0 +1,32 @@
+<html>
+<head>
+  {{bs.load_css()}}
+  {{bs.load_js()}}
+  <script type="text/javascript" src="../static/javascript/script.js"></script>
+  <title>你的类别检测</title>
+</head>
+<body>
+  <div class="container">
+	<div class="row">
+		<div class="span12">
+			<h1 class="page-header">
+				<em><span class="marker">属于你的类别报告</span></em>
+			</h1>
+			<p class="lead">
+				你好，{{name}}。
+			</p>
+			<p class="lead">
+				{{name}}是猪。
+			</p>
+			<p class="lead" id="siya">
+				单击按键获取唯一饲养编号
+			</p>
+			<p class="lead">
+			</p> <button id="hide" class="btn btn-primary" type="button">不想看点我</button>
+                 <button id="show" class="btn btn-primary" type="button">想看点我</button> 
+                 <button id="get" class="btn btn-primary" type="button">获取唯一饲养牌号</button>
+		</div>
+	</div>
+  </div>
+</body>
+</html> 
